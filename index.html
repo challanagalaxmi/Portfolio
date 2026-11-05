@@ -393,27 +393,6 @@
     .project-info p { margin: 5px 0 0; color: var(--muted); font-size: 11px; }
     .project-year { color: var(--muted); font-size: 10px; }
 
-    .about {
-      display: grid;
-      grid-template-columns: .7fr 1.3fr;
-      gap: 80px;
-      padding-block: 92px;
-      border-top: 1px solid var(--line);
-    }
-
-    .about-note { color: var(--muted); font-size: 11px; line-height: 1.7; }
-    .about-main { max-width: 700px; }
-
-    .about-main p {
-      margin: 0;
-      font-family: var(--serif);
-      font-size: clamp(27px, 3.5vw, 43px);
-      letter-spacing: -.045em;
-      line-height: 1.28;
-    }
-
-    .about-main p span { color: #858b7d; }
-
     .contact {
       display: flex;
       align-items: center;
@@ -456,8 +435,6 @@
       .section { padding-block: 74px; }
       .projects { gap: 30px; grid-template-columns: 1fr; }
       .project-visual { min-height: 300px; }
-      .about { grid-template-columns: 1fr; gap: 26px; padding-block: 70px; }
-      .about-note br { display: none; }
       .contact { align-items: flex-start; flex-direction: column; padding-block: 38px; }
     }
 
@@ -489,7 +466,7 @@
     </a>
     <nav class="nav-links" aria-label="Main navigation">
       <a href="#work">Work</a>
-      <a href="#about">About</a>
+      <a href="about.html">About</a>
       <a class="nav-cta" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
     </nav>
   </header>
@@ -554,16 +531,6 @@
             </div>
           </a>
         </article>
-      </div>
-    </section>
-
-    <section class="shell about" id="about">
-      <div>
-        <p class="section-kicker">A little about me</p>
-        <p class="about-note">DESIGN WITH INTENTION.<br>BUILD WITH CARE.</p>
-      </div>
-      <div class="about-main">
-        <p>I believe the best work comes from paying attention — to people, to the details, and to <span>the feeling you want to leave behind.</span> I bring ideas to life with equal parts curiosity and craft.</p>
       </div>
     </section>
 
